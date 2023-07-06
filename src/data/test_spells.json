@@ -1,0 +1,65 @@
+{
+	"spells":
+		[
+			{
+				"name": "Acid Splash",
+				"source": "PHB",
+				"level": 1,
+				"school": "Conjuration",
+				"casting_time": "1 action",
+				"range": "60 feet",
+				"components": "VSxxx",
+				"consumed_components": "",
+				"duration": "Instantaneous",
+				"description": "You hurl a bubble of acid. Choose one creature you can see within range, or choose two creatures you can see within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.",
+				"upcast_description": "This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+				"spell_lists": ["Artificer", "Sorcerer", "Wizard"],
+				"tags": ["damage", "DEX save", "single target", "multiple target", "acid damage"]
+			},
+			{
+				"name": "Divination",
+				"source": "PHB",
+				"level": 4,
+				"school": "Divination",
+				"casting_time": "1 action",
+				"range": "Self",
+				"components": "VSMxR",
+				"consumed_components": "(incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp, which the spell consumes",
+				"duration": "Instantaneous",
+				"description": "Your magic and an offering put you in contact with a god or a god’s servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen.\nThe spell doesn’t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.\nIf you cast this spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.",
+				"upcast_description": "",
+				"spell_lists": ["Cleric", "Druid", "Wizard"],
+				"tags": ["roleplay", "utility"]
+			},
+			{
+				"name": "Invulnerability",
+				"source": "XGtE",
+				"level": 9,
+				"school": "Abjuration",
+				"casting_time": "1 action",
+				"range": "Self",
+				"components": "VSMCx",
+				"consumed_components": "a small piece of adamantine worth at least 500 GP, which the spell consumes",
+				"duration": "10 minutes",
+				"description": "You are immune to all damage until the spell ends.",
+				"upcast_description": "",
+				"spell_lists": ["Wizard"],
+				"tags": ["target self", "single target", "defensive"]
+			},
+			{
+				"name": "SPELL_NAME",
+				"source": "SPELL_SOURCE",
+				"level": 0,
+				"school": "SPELL_SCHOOL",
+				"casting_time": "CASTING_TIME",
+				"range": "SPELL_RANGE",
+				"components": "VSMCR",
+				"consumed_components": "CONSUMED_COMPONENTS_BLANK_IF_NONE",
+				"duration": "SPELL_DURATION",
+				"description": "SPELL_DESCRIPTION",
+				"upcast_description": "UPCAST_DESCRIPTION_BLANK_IF_NONE",
+				"spell_lists": ["Artificer", "Sorcerer", "Wizard"],
+				"tags": ["damage", "DEX save", "single target", "multiple target", "acid damage"]
+			}
+		]
+}
