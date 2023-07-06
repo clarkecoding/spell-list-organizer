@@ -1,11 +1,13 @@
 import '../App.css';
 import SpellWidget from './SpellWidget';
+import CloseSpellWidgetsBtn from './CloseSpellWidgetsBtn';
 
 const testSpells = require('../data/test_spells.json');
 
 function App() {
   return (
     <div className='App'>
+      <CloseSpellWidgetsBtn />
       <SpellWidget 
         spell={testSpells.spells[0]}
       />
