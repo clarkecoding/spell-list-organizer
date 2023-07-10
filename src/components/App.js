@@ -1,5 +1,5 @@
 import '../App.css';
-import SpellWidget from './SpellWidget';
+import SpellList from './SpellList';
 import CloseSpellWidgetsBtn from './CloseSpellWidgetsBtn';
 import FileUploader from './FileUploader';
 
@@ -10,15 +10,7 @@ function App() {
     <div className='App'>
       <FileUploader />
       <CloseSpellWidgetsBtn />
-      <SpellWidget 
-        spell={testSpells.spells[0]}
-      />
-      <SpellWidget 
-        spell={testSpells.spells[1]}
-      />
-      <SpellWidget 
-        spell={testSpells.spells[2]}
-      />
+      <SpellList spells={testSpells.spells} />
     </div>
   );
 }
